@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.block {
+  height: 100vh;
+  position: relative;
+}
+
+.item {
+  background-color: whitesmoke;
+  height: 100px;
+  position: sticky;
+  top: 0;
+}
+
+.navigation_header {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  justify-items: center;
+}
+
+.img_header {
+  max-width: 6.25rem;
+}
+
+.intro_item {
+  font-size: 5.125rem;
+  color: gray;
+}
+
+.about_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about_me, #i_studu_prg, #i_like, #connect {
+  color: grey;
+}
+
+.bar {
+  min-height: 10vh;
+  border: 3px solid #000;
+}
+
+.intro_welcome {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome {
+  font-size: 4.1875rem;
+  color: gray;
+}
+
+.div_img_me {
+  display: flex;
+  justify-content: center;
+}
+
+.img_me {
+  max-width: 29.25rem;
+}
+
+.img_prg {
+  max-width: 49.25rem;
+}
+
+.img_hobby {
+  max-width: 69.25rem;
+  max-height: 821px;
+}
+
+.img_mail {
+  height: 640px;
+}
+
+.about_info {
+  width: 212px;
+  margin: 35px;
+}
+
+.about_item_content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.about_info_text {
+  font-size: 17px;
+  font-weight: 400;
+  color: gray;
+  text-align: center;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.about_item_cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about_item_bottom {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact_pic {
+  flex: 1 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
